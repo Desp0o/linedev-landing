@@ -7,7 +7,7 @@ interface ButtonComponentProps {
   btnWidth?: string;
   btnHeight?: string;
   text: string;
-  borderColor?:string;
+  borderColor?: string;
 }
 
 const ButtonComponent: React.FC<ButtonComponentProps> = ({
@@ -16,7 +16,7 @@ const ButtonComponent: React.FC<ButtonComponentProps> = ({
   txtColor,
   btnHeight,
   text,
-  borderColor
+  borderColor,
 }) => {
   return (
     <button
