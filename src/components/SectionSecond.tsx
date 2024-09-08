@@ -8,7 +8,7 @@ import SecondSectionLeftSide from "./SecondSectionLeftSide";
 
 const SectionSecond = () => {
   return (
-    <div className="flex items-center justify-center gap-[24px]">
+    <div className="flex items-center justify-center gap-[24px] relative z-[1]">
       <div className="w-[520px] h-[580px] relative">
         <ImageComponent
           image={img1}
