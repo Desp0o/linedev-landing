@@ -6,6 +6,8 @@ const Home = () => {
     <main>
       <div className="mt-[20px]"/>
       <HeroSection />
+
+      <div className="mt-[160px]" />
       <SectionSecond />
     </main>
   )

@@ -4,10 +4,11 @@ import img2 from "../assets/images/img2.png";
 import img4 from "../assets/images/img4.png";
 import img3 from "../assets/images/img3.png";
 import img5 from "../assets/images/img5.png";
+import SecondSectionLeftSide from "./SecondSectionLeftSide";
 
 const SectionSecond = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center gap-[24px]">
       <div className="w-[520px] h-[580px] relative">
         <ImageComponent
           image={img1}
@@ -49,6 +50,8 @@ const SectionSecond = () => {
           bottom={"0px"}
         />
       </div>
+
+      <SecondSectionLeftSide />
     </div>
   );
 };
