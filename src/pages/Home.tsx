@@ -1,3 +1,4 @@
+import AccordionSection from "../components/AccordionSection";
 import FourthSection from "../components/FourthSection";
 import HeroSection from "../components/HeroSection";
 import SectionSecond from "../components/SectionSecond";
@@ -18,7 +19,12 @@ const Home = () => {
       <div className="mt-[80px]" />
       <FourthSection />
 
+      <div className="mt-[270px]" />
+      <AccordionSection />
+
       <div className="mt-[160px]" />
+      <SectionSecond />
+
     </main>
   );
 };

@@ -11,7 +11,7 @@ const ProgramCardComponent: React.FC<ProgramCardComponentProps> = ({
   text,
 }) => {
   return (
-    <div className="w-[194px] h-[266px] px-[28px] py-[34px] flex flex-col items-center gap-[46px] bg-glassColor rounded-[30px]">
+    <div className="w-[194px] h-[266px] px-[28px] py-[34px] flex flex-col items-center gap-[46px] bg-glassColor rounded-[30px] drop-shadow-primaryShadow">
       <span>{icon}</span>
 
       <p className="text-[12px] font-[900] leading-[15px] text-center bg-clip-text text-transparent bg-gradient-to-r from-thirdBlue  to-secondary">
