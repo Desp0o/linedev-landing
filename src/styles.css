@@ -1,0 +1,30 @@
+.swiper {
+  width: 1000px;
+  height: 100%;
+  background-color: unset !important;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content !important;
+  margin-right: 35px !important;
+}
+
+.swiper-button-next::after {
+  content: url("./assets//images/nextArrow.png");
+}
+
+.swiper-button-next {
+  height: 40px !important;
+  width: 40px !important;
+  right: -20px !important;
+}
