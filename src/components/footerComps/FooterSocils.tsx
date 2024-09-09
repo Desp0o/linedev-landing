@@ -7,7 +7,7 @@ interface FooterSocilsProps{
 
 const FooterSocils:React.FC<FooterSocilsProps> = ({icon, socialName}) => {
   return (
-    <div className='flex items-center gap-6px'>
+    <div className='flex items-center gap-[6px]'>
         {icon}
         <p className='text-[16px] text-white leading-[18px]'>{socialName}</p>
     </div>
