@@ -8,6 +8,8 @@ export default {
         secondary: "#3DB8B1",
         tertiary: "#002241",
         secondaryBlue: "#00AEF8",
+        thirdBlue: "#2763D6",
+        fourthBlue: "#0D2E6A",
         glassColor: "hsla(218, 17%, 93%, 0.95)",
       },
       dropShadow: {

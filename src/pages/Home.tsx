@@ -1,3 +1,4 @@
+import FourthSection from "../components/FourthSection";
 import HeroSection from "../components/HeroSection";
 import SectionSecond from "../components/SectionSecond";
 import SwiperSection from "../components/SwiperSection";
@@ -11,10 +12,13 @@ const Home = () => {
       <div className="mt-[160px]" />
       <SectionSecond />
 
-      <div className="mt-[160px]" />
+      <div className="mt-[80px]" />
       <SwiperSection />
 
       <div className="mt-[80px]" />
+      <FourthSection />
+
+      <div className="mt-[160px]" />
     </main>
   );
 };
