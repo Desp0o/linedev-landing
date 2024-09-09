@@ -23,7 +23,6 @@ const Home = () => {
       <AccordionSection />
 
       <div className="mt-[160px]" />
-      <SectionSecond />
 
     </main>
   );
